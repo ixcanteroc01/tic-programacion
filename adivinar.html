@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+	<head>
+        <meta charset="utf-8">
+		<title>Adivinar un número entre 1 y 100</title>
+        <link rel="stylesheet" href="CSS/main.css">
+	</head>
+
+	<body>
+		<h1>Javascript</h1>
+
+        <h3>Haz click en una de las siguientes opciones:</h3>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="imc.html">IMC</a></li>
+            <li><a href="calc2grado.html">Ecuaciones de segundo grado</a></li>
+	    	<li><a href="adivinar.html">Juego de adivinar el número</a></li>
+        </ul>
+
+		<hr/>
+		<h2>Adivinar un número entre 1 y 100</h2>
+
+		<form onsubmit="return adivinar()">
+			Ingresa un número (entre 1 y 100):
+			<input type="text" name="numero_user" id="numero_user">
+			<br><br>
+			<button type="submit" id="boton">Enviar número</button>
+		</form>
+
+		<div id="datos"></div>
+
+        <script src="Javascript/adivinar.js" type="text/javascript"></script>
+	</body>
+</html>
