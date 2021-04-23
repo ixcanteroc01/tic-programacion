@@ -2,3 +2,7 @@ body {
     background: #bbbbbb;
     font-family: 'Courier New';    
 }  
+
+a:hover {
+  text-decoration: none;
+}
