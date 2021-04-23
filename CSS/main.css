@@ -6,3 +6,11 @@ body {
 a:hover {
   text-decoration: none;
 }
+
+a:link {
+    color: #197419;
+}
+
+a:visited {
+    color: #197419;
+}
